@@ -1,6 +1,6 @@
 import ContactData from "../_components/ContactDataa";
 import HeroSection from "../_components/HeroSection";
-import MapContent from "../_ui/MapContent";
+import MapWrapper from "../_ui/MapWrapper"; // Import the wrapper instead
 
 function page() {
   return (
@@ -8,7 +8,7 @@ function page() {
       <HeroSection
         src="/bg-contact.mp4"
         headerText="Contact Us"
-        text="Our admin team can help you with appointments, class bookings and ensuring you are seeing the most appropriate physio for your injury or area of concern."
+        text="Our admin team can help you with appointments..."
         buttonDisplay={false}
       />
       <main className="mx-auto max-w-7xl px-4 py-10 md:px-10 md:py-20">
@@ -22,7 +22,8 @@ function page() {
             </div>
           </div>
           <div className="z-1">
-            <MapContent />
+            {/* No more error! The wrapper handles the client-only logic */}
+            <MapWrapper />
           </div>
         </div>
       </main>
