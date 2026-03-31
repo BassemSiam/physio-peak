@@ -11,8 +11,8 @@ export default function CoverageSection() {
               We Support Your Coverage
             </h3>
             <p className="text-gray-600">
-              Physio Peak is a registered provider for all major schemes. We
-              handle the paperwork so you can focus on recovery.
+              We support a wide range of funding schemes and aim to simplify the
+              process, so the main focus is on your recovery
             </p>
           </div>
 

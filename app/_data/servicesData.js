@@ -25,30 +25,6 @@ import {
 
 export const services = [
   {
-    id: "dry-needling-cupping",
-    title: "Dry Needling & Cupping Therapy",
-    image: "/servicesImages/dry.jpg",
-    icon: <Zap className="h-6 w-6" />,
-    description:
-      "Targeted muscle relief using sterile needles to release trigger points and traditional cupping to improve blood flow.",
-  },
-  {
-    id: "work-sport-injury",
-    title: "Work & Sport Injury Management",
-    image: "/servicesImages/Work-sport.jpg",
-    icon: <Trophy className="h-6 w-6" />,
-    description:
-      "Specialized recovery plans designed to get athletes and professionals back to peak performance through biomechanical analysis.",
-  },
-  {
-    id: "post-surgical-rehab",
-    title: "Post-Surgical Injury Rehabilitation",
-    image: "/servicesImages/Post-Surgical.jpg",
-    icon: <Stethoscope className="h-6 w-6" />,
-    description:
-      "Carefully structured recovery protocols for post-op patients to restore range of motion and build strength.",
-  },
-  {
     id: "manual-therapy",
     title: "Manual Therapy",
     image: "/servicesImages/Manual-Therapy.jpg",
@@ -57,20 +33,91 @@ export const services = [
       "Hands-on techniques including joint mobilization and manipulation to reduce stiffness and alleviate pain.",
   },
   {
-    id: "soft-tissue-release",
-    title: "Soft Tissue Release",
-    image: "/servicesImages/SoftTissue.jpg",
-    icon: <Move className="h-6 w-6" />,
+    id: "therapeutic-massage",
+    title: "Therapeutic Massage and Soft Tissue Release",
+    image: "/servicesImages/massage.jpg",
+    icon: <Hand className="h-6 w-6" />,
     description:
-      "Advanced massage and stretching techniques focused on breaking down scar tissue and releasing chronic muscle tension.",
+      "Clinical massage therapy aimed at reducing stress, improving circulation, and soothing tired muscles.",
   },
+
   {
-    id: "exercise-rehab",
-    title: "Exercise Rehabilitation",
+    id: "Exercise-Therapy-Prescription",
+    title: "Exercise Therapy and Prescription",
     image: "/servicesImages/Exercise-Rehabilitation.jpg",
     icon: <Dumbbell className="h-6 w-6" />,
     description:
-      "Customized movement programs that empower you to take control of your recovery through functional training.",
+      "Customized, evidence-based movement programs designed to restore function, build strength, and prevent future injuries.",
+  },
+
+  {
+    id: "fall-prevention",
+    title: "Full Prevention Strategies and mobility Suppor",
+    image: "/servicesImages/Strategies.jpg",
+    icon: <UserRoundCheck className="h-6 w-6" />,
+    description:
+      "Proactive safety assessments and strength training designed for seniors to reduce fall risks and build confidence.",
+  },
+  {
+    id: "work-sport-injury",
+    title: "Work and Sports Injury Management",
+    image: "/servicesImages/Work-sport.jpg",
+    icon: <Trophy className="h-6 w-6" />,
+    description:
+      "Specialized recovery plans designed to help athletes and professionals recovering from workplace injuries return to peak performance, supported by comprehensive programs that provide a safe recovery.",
+  },
+
+  {
+    id: "post-surgical-rehab",
+    title: "Post-Surgical Rehabilitation",
+    image: "/servicesImages/Post-Surgical.jpg",
+    icon: <Stethoscope className="h-6 w-6" />,
+    description:
+      "Carefully structured recovery protocols for post-op patients to restore range of motion and build strength.",
+  },
+
+  {
+    id: "dry-needling-cupping",
+    title: "Dry Needling and Cupping Therapy",
+    image: "/servicesImages/dry.jpg",
+    icon: <Zap className="h-6 w-6" />,
+    description:
+      "Targeted muscle relief using sterile needles to release trigger points and traditional cupping to improve blood flow.",
+  },
+
+  {
+    id: "taping-strapping",
+    title: "Taping & Strapping",
+    image: "/servicesImages/Taping.jpg",
+    icon: <Bandage className="h-6 w-6" />,
+    description:
+      "Strategic application of Kinesio-tape or rigid strapping to provide joint stability and support weak muscles.",
+  },
+
+  {
+    id: "vertigo-balance",
+    title: "Vertigo & Balance Management",
+    image: "/servicesImages/Vertigo.jpg",
+    icon: <RotateCcw className="h-6 w-6" />,
+    description:
+      "Specialized vestibular rehabilitation to treat dizziness, vertigo, and inner-ear issues, helping you feel grounded.",
+  },
+
+  {
+    id: "Lymphedema-management ",
+    title: "Lymphedema management ",
+    image: "/servicesImages/SoftTissue.jpg",
+    icon: <Move className="h-6 w-6" />,
+    description:
+      "Expert decongestive therapy and manual drainage to reduce swelling, improve circulation, and help you regain comfort and mobility.",
+  },
+  {
+    id: "neuro-physiotherapy",
+    title: "Neurophysiotherapy",
+    image: "/servicesImages/Neuro.jpg",
+    icon: <BrainCircuit className="h-6 w-6" />,
+    description:
+      "Expert care for neurological conditions like Stroke or MS, focusing on neuroplasticity to regain motor control.",
   },
   {
     id: "electrotherapy-ultrasound",
@@ -88,60 +135,21 @@ export const services = [
     description:
       "A holistic approach to long-term pain, focusing on desensitizing the nervous system and improving quality of life.",
   },
-  {
-    id: "mobility-support",
-    title: "Mobility Support",
-    image: "/servicesImages/Mobility.png",
-    icon: <Accessibility className="h-6 w-6" />,
-    description:
-      "Dedicated assistance and training to improve your independence, gait, and overall ease of movement.",
-  },
-  {
-    id: "taping-strapping",
-    title: "Taping & Strapping",
-    image: "/servicesImages/Taping.jpg",
-    icon: <Bandage className="h-6 w-6" />,
-    description:
-      "Strategic application of Kinesio-tape or rigid strapping to provide joint stability and support weak muscles.",
-  },
-  {
-    id: "vertigo-balance",
-    title: "Vertigo & Balance Management",
-    image: "/servicesImages/Vertigo.jpg",
-    icon: <RotateCcw className="h-6 w-6" />,
-    description:
-      "Specialized vestibular rehabilitation to treat dizziness, vertigo, and inner-ear issues, helping you feel grounded.",
-  },
-  {
-    id: "fall-prevention",
-    title: "Fall Prevention Strategies",
-    image: "/servicesImages/Strategies.jpg",
-    icon: <UserRoundCheck className="h-6 w-6" />,
-    description:
-      "Proactive safety assessments and strength training designed for seniors to reduce fall risks and build confidence.",
-  },
-  {
-    id: "therapeutic-massage",
-    title: "Therapeutic Massage",
-    image: "/servicesImages/massage.jpg",
-    icon: <Hand className="h-6 w-6" />,
-    description:
-      "Clinical massage therapy aimed at reducing stress, improving circulation, and soothing tired muscles.",
-  },
-  {
-    id: "neuro-physiotherapy",
-    title: "Neuro Physiotherapy",
-    image: "/servicesImages/Neuro.jpg",
-    icon: <BrainCircuit className="h-6 w-6" />,
-    description:
-      "Expert care for neurological conditions like Stroke or MS, focusing on neuroplasticity to regain motor control.",
-  },
+
+  // {
+  //   id: "mobility-support",
+  //   title: "Mobility Support",
+  //   image: "/servicesImages/Mobility.png",
+  //   icon: <Accessibility className="h-6 w-6" />,
+  //   description:
+  //     "Dedicated assistance and training to improve your independence, gait, and overall ease of movement.",
+  // },
 ];
 
 export const coverage = [
   {
     name: "Medicare",
-    desc: "Bulk billing available for GP Management Plans (CDM).",
+    desc: "Bulk billing available for eligible patients under GP Management Care Plans (CDM).",
     icon: <Landmark />,
   },
   {
@@ -151,7 +159,7 @@ export const coverage = [
   },
   {
     name: "NDIS",
-    desc: "Support for self-managed and plan-managed participants.",
+    desc: "Personalised physiotherapy services for self-managed and plan-managed NDIS participants, delivered in-clinic or in the comfort of your home.",
     icon: <UserRound />,
   },
   {
@@ -165,8 +173,8 @@ export const coverage = [
     icon: <ShieldCheck />,
   },
   {
-    name: "Home Visits",
-    desc: "Professional physiotherapy care in the comfort of your own home.",
+    name: "Aged Care",
+    desc: "Supporting clients under Home Care Packages (HCP) with tailored physiotherapy services, available both in-clinic and at home.",
     icon: <Home />,
   },
 ];
@@ -252,7 +260,7 @@ export const workGallery = [
     description:
       "Providing high-quality rehabilitative care for our veterans and their families.",
     size: "h-[290px]",
-    img: "/ourWork/9.png",
+    img: "/ourWork/9.jpg",
   },
   {
     description:
@@ -334,5 +342,49 @@ export const testimonials = [
       "I had been living with chronic neck pain for years. Through a combination of manual therapy and targeted exercises, the clinicians helped me regain full range of motion. Truly life-changing care.",
     avatar: "/avatars/elenaa.jpg",
     rating: 5,
+  },
+];
+
+export const informationData = [
+  {
+    place: "PhysioPeak Wollongong",
+    number1: "(02) 4217 6000",
+    dial1: "+61242176000",
+    number2: "(02) 8313 5799",
+    dial2: "+61283135799",
+    address: "LG W005, Wollongong Central 200 Crown, Wollongong, NSW 2500",
+    lat: -34.4250325,
+    lng: 150.8931133,
+    landmark: "Opposite Coles & Beside Chemist Warehouse",
+  },
+  {
+    place: "PhysioPeak Bomaderry",
+    number1: "(02) 4421 4655",
+    dial1: "+61244214655",
+    number2: "(02) 4423 5814",
+    dial2: "+61244235814",
+    address: "1-3 Meroo Street, Bomaderry, NSW 2541",
+    lat: -34.8569,
+    lng: 150.6033,
+  },
+  {
+    place: "PhysioPeak Albion Park",
+    number1: "(02) 4208 0100",
+    dial1: "+61242080100",
+    number2: "(02) 4208 0120",
+    dial2: "+61242080120",
+    address: "144 Terry Street, Albion Park, NSW 2527",
+    lat: -34.5658,
+    lng: 150.7765,
+  },
+  {
+    place: "PhysioPeak Nowra",
+    number1: "(02) 8043 5333",
+    dial1: "+61280435333",
+    number2: "(02) 8043 5444",
+    dial2: "+61280435444",
+    address: "132 Junction Street, Nowra, NSW 2541",
+    lat: -34.8748622,
+    lng: 150.6025378,
   },
 ];

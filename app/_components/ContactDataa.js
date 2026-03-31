@@ -1,53 +1,48 @@
-import { FaFacebook, FaInstagram } from "react-icons/fa";
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, Phone, PhoneCall } from "lucide-react";
 
-const locationLink = "https://maps.app.goo.gl/a3NaaYEftWicAND79";
-function ContactData() {
+function ContactData({ data }) {
   return (
     <div>
-      <ul className="space-y-4">
-        <li className="flex items-center gap-3 text-gray-400">
+      <ul className="space-y-8">
+        <li className="flex flex-wrap items-center gap-6 text-gray-400">
+          {/* Phone Number 1 */}
           <a
-            href="tel:+61285429507"
-            className="hover:text-primary flex items-center gap-2"
+            href={`tel:${data?.dial1}`}
+            className="hover:text-primary flex items-center gap-2 transition-colors"
+          >
+            <PhoneCall size={20} className="text-primary" />
+            <span>{data?.number1}</span>
+          </a>
+
+          {/* Phone Number 2 */}
+          <a
+            href={`tel:${data?.dial2}`}
+            className="hover:text-primary flex items-center gap-2 transition-colors"
           >
             <Phone size={20} className="text-primary" />
-            <span>(02) 80435333</span>
+            <span>{data?.number2}</span>
           </a>
         </li>
+
         <li className="flex items-center gap-3 text-gray-400">
           <a
             href="mailto:info@physiopeak.com.au"
-            className="hover:text-primary flex items-center gap-2"
+            className="hover:text-primary flex items-center gap-2 transition-colors"
           >
             <Mail size={20} className="text-primary" />
             <span>info@physiopeak.com.au</span>
           </a>
         </li>
+
         <li className="flex items-center gap-3 text-gray-400">
           <a
-            href={locationLink}
+            href={`https://www.google.com/maps?q=${data?.lat},${data?.lng}`}
             target="_blank"
-            className="hover:text-primary mb-5 flex items-center gap-2"
+            rel="noopener noreferrer"
+            className="hover:text-primary flex items-center gap-2 transition-colors"
           >
-            <MapPin size={20} className="text-primary" />
-            <span>132 Junction Street. Nowra, NSW,2541</span>
-          </a>
-        </li>
-        <li className="mt-8 flex gap-5">
-          <a
-            href="https://www.facebook.com/"
-            target="_blank"
-            className="hover:text-primary/90 text-primary"
-          >
-            <FaFacebook size={25} />
-          </a>
-          <a
-            href="https://www.instagram.com/"
-            target="_blank"
-            className="hover:text-primary/90 text-primary"
-          >
-            <FaInstagram size={25} />
+            <MapPin size={24} className="text-primary shrink-0" />
+            <span className="max-w-75">{data?.address}</span>
           </a>
         </li>
       </ul>

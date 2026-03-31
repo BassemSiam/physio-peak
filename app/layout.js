@@ -12,6 +12,11 @@ const montserrat = Montserrat({
 export const metadata = {
   title: "Physio Peak",
   description: "physiotherapy clinic",
+  icons: {
+    icon: "/logo-white-c.png", // This looks into your public/ folder automatically
+    shortcut: "/logo-white-c.png",
+    apple: "/logo-white-c.png", // For iOS devices
+  },
 };
 
 export default function RootLayout({ children }) {

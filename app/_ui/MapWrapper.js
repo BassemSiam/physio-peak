@@ -8,6 +8,6 @@ const MapContent = dynamic(() => import("./MapContent"), {
   loading: () => <div className="h-120 w-full animate-pulse rounded-xl bg-gray-200" />
 });
 
-export default function MapWrapper() {
-  return <MapContent />;
+export default function MapWrapper({data}) {
+  return <MapContent data={data}/>;
 }

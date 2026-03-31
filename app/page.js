@@ -4,8 +4,6 @@ import VideoPhysioPeak from "./_pages/VideoPhysioPeak";
 import ServicesSection from "./_pages/ServicesSection";
 import CoverageSection from "./_pages/CoverageSection";
 import Testimonials from "./_pages/aboutSections/Testimonials";
-import FeaturedTestimonials from "./_pages/FeaturedTestimonials";
-import FeaturedServices from "./_pages/FeaturedServices";
 
 export default function Page() {
   return (
@@ -20,10 +18,9 @@ export default function Page() {
       />
       <main className="mx-auto max-w-7xl px-4 py-10 md:px-10 md:py-20">
         <WhyPhysioPeak />
-        <VideoPhysioPeak />
-        <FeaturedServices />
+        <ServicesSection />
         <CoverageSection />
-        <FeaturedTestimonials/>
+        <Testimonials />
       </main>
     </div>
   );

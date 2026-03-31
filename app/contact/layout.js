@@ -6,8 +6,6 @@ const montserrat = Montserrat({
   variable: "--font-heading", // Custom CSS variable name
 });
 
-
-
 export default function RootLayout({ children }) {
   return <main className={`${montserrat.className} `}>{children}</main>;
 }

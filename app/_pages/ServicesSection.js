@@ -1,9 +1,9 @@
 "use client";
-import { services, funding } from "../_data/servicesData";
+import { services } from "../_data/servicesData";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
-import { CheckCircle2, ChevronRight, ChevronLeft } from "lucide-react";
+import { ChevronRight, ChevronLeft } from "lucide-react";
 
 import "swiper/css";
 import "swiper/css/pagination";
@@ -40,8 +40,8 @@ function ServicesSection() {
             }}
             pagination={{ clickable: true, dynamicBullets: true }}
             navigation={{
-              prevEl: ".prev-btn",
-              nextEl: ".next-btn",
+              prevEl: ".prev-test-btn",
+              nextEl: ".next-test-btn",
             }}
             className="rounded-4xl border border-gray-200 shadow-2xl"
           >
@@ -83,12 +83,13 @@ function ServicesSection() {
           <button className="prev-test-btn hover:text-primary absolute top-1/2 left-0 z-10 hidden -translate-x-6 -translate-y-1/2 rounded-full border border-gray-100 bg-white p-4 text-gray-400 shadow-lg transition-all md:block">
             <ChevronLeft size={24} />
           </button>
+
           <button className="next-test-btn hover:text-primary absolute top-1/2 right-0 z-10 hidden translate-x-6 -translate-y-1/2 rounded-full border border-gray-100 bg-white p-4 text-gray-400 shadow-lg transition-all md:block">
             <ChevronRight size={24} />
           </button>
         </div>
 
-        <div className="mt-16 grid grid-cols-2 gap-4 border-t border-gray-100 pt-12 md:grid-cols-3 lg:grid-cols-6">
+        {/* <div className="mt-16 grid grid-cols-2 gap-4 border-t border-gray-100 pt-12 md:grid-cols-3 lg:grid-cols-6">
           {funding.map((item) => (
             <div
               key={item}
@@ -100,7 +101,7 @@ function ServicesSection() {
               </span>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );

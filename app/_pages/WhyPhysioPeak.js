@@ -35,10 +35,10 @@ function WhyPhysioPeak() {
           </div>
 
           <p className="max-w-prose text-base leading-relaxed text-gray-600 md:text-2xl">
-            At Physio Peak, our name reflects our mission to help you reach the
-            peak of your physical health. Whether you&apos;re recovering from an
-            injury or improving mobility, we&apos;re here to guide you toward
-            your personal best.
+            At Physio Peak, our name reflects our mission: helping you reach the
+            peak of your physical health. Whether recovering from an injury,
+            managing chronic pain, or improving mobility, we&apos;re here to
+            guide you toward your personal best.
           </p>
           <div className="mt-10">
             <Button>
@@ -53,7 +53,7 @@ function WhyPhysioPeak() {
         <div className="relative flex flex-col gap-4">
           <div className="relative h-64 w-full overflow-hidden rounded-2xl shadow-xl transition-all duration-700 hover:scale-105 md:h-75">
             <Image
-              src="/Copilot-1.png"
+              src="/p5.jpg"
               alt="img-1"
               data-aos="fade-left"
               fill
@@ -63,7 +63,7 @@ function WhyPhysioPeak() {
 
           <div className="relative h-64 w-[90%] translate-0 self-end overflow-hidden rounded-2xl shadow-xl transition-all duration-700 hover:scale-105 md:h-75 md:w-full md:translate-5">
             <Image
-              src="/Copilot_2.png"
+              src="/p6.jpg"
               alt="img-2"
               data-aos="fade-left"
               data-aos-delay="100"

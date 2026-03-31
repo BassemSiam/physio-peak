@@ -5,7 +5,6 @@ import { CheckCircle2, ArrowRight } from "lucide-react";
 import { services, funding } from "../_data/servicesData";
 
 function FeaturedServices() {
-  // Take only the first two services
   const featuredServices = services.slice(0, 2);
 
   return (
@@ -71,7 +70,7 @@ function FeaturedServices() {
         </div>
 
         {/* Funding/Partners Footer */}
-        <div className="mt-16 border-t border-gray-100 pt-12">
+        {/* <div className="mt-16 border-t border-gray-100 pt-12">
           <p className="mb-8 text-center text-xs font-bold tracking-widest text-gray-400 uppercase">
             Supported Funding & Partners
           </p>
@@ -88,7 +87,7 @@ function FeaturedServices() {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

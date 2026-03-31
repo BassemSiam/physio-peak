@@ -10,7 +10,7 @@ function WhatsappFloating() {
 
   return (
     <FloatingWhatsApp
-      phoneNumber="+201208741247"
+      phoneNumber="+61432078859"
       accountName="Physio Peak"
       avatar="/logo-white.png"
       onSubmit={handleSubmit}

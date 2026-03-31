@@ -38,21 +38,18 @@ function Header({ buttonDisplay }) {
               />
             </Link>
           </div>
-
-          {/* Desktop Navigation */}
           <Navigation onToggle={() => setIsOpen(true)} scrolled={scrolled} />
-
-          {buttonDisplay ? (
-            <div className="hidden md:block">
-              <Link href="/contact" className="w-fit">
-                <button className="bg-primary hover:text-primary cursor-pointer rounded-full px-5 py-3 text-sm font-bold text-white transition-all duration-300 hover:bg-white">
-                  Contact us
-                </button>
-              </Link>
-            </div>
-          ) : (
-            <div></div>
-          )}
+          <div className="hidden md:block">
+            <Link
+              href="https://physio-peak-pty-ltd.au4.cliniko.com/bookings#location"
+              className="w-fit"
+              target="_blank"
+            >
+              <button className="bg-primary hover:text-primary cursor-pointer rounded-full px-5 py-3 text-sm font-bold text-white transition-all duration-300 hover:bg-white">
+                Book Appointment
+              </button>
+            </Link>
+          </div>
         </header>
       </div>
 
