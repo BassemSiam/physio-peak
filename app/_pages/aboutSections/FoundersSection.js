@@ -1,6 +1,8 @@
 import { therapists } from "@/app/_data/servicesData";
 import Image from "next/image";
 
+
+
 function FoundersSection() {
   return (
     <section className="px-4 py-16">
@@ -17,7 +19,7 @@ function FoundersSection() {
         </div>
       </div>
 
-      <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-2">
+      <div className="mx-auto grid max-w-7xl gap-16 lg:grid-cols-2">
         {therapists.map((dr, index) => (
           <div
             key={index}
