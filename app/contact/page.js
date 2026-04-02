@@ -15,7 +15,7 @@ function ContactPage() {
         buttonDisplay={false}
       />
 
-      <main className="mx-auto max-w-7xl px-4 py-12 md:px-10 md:py-24">
+      <main className="mx-auto max-w-6xl px-4 py-12 md:px-10 md:py-24">
         {/* Header Section */}
         <div className="mb-16 text-center md:mb-24">
           <h1 className="from-primary bg-linear-to-r to-gray-900 bg-clip-text text-4xl font-extrabold tracking-tight text-transparent uppercase md:text-5xl">

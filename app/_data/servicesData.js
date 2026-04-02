@@ -52,7 +52,7 @@ export const services = [
 
   {
     id: "fall-prevention",
-    title: "Full Prevention Strategies and mobility Suppor",
+    title: "Full Prevention Strategies and mobility Support",
     image: "/servicesImages/Strategies.jpg",
     icon: <UserRoundCheck className="h-6 w-6" />,
     description:
@@ -207,104 +207,169 @@ export const qualifications = [
   },
 ];
 
+export const therapists = [
+  {
+    name: "Mohamed",
+    surname: "Mahdy",
+    image: "/IMG_2656.jpg",
+    description:
+      "Mohamed Mahdy has over 12 years of clinical experience, delivering patient-centered, evidence-based care across WorkCover and CTP schemes, Medicare, and in-home physiotherapy (HCP & NDIS). He specializes in orthopedic, neurological, post-surgical, and chronic pain rehabilitation.",
+  },
+  {
+    name: "Abdel",
+    surname: "Abouzed",
+    image: "/IMG_2655.jpg",
+    description:
+      "Abdel Abouzed is an experienced physiotherapist with advanced training in musculoskeletal care. He specialises in spinal conditions, Workcover and CTP Claims, vertigo, fracture care, and rehabilitation. He is committed to helping clients move better and live pain-free.",
+  },
+];
+
 export const workGallery = [
   {
+    title: "Manual Therapy",
     description:
       "Hands-on techniques for joint and soft tissue mobilization to restore painless movement.",
-    size: "h-[420px]",
+    size: "aspect-[3/4]",
     img: "/ourWork/1.jpg",
   },
   {
+    title: "Geriatric Care",
     description:
       "Specialized geriatric care focusing on mobility, fall prevention, and independence.",
-    size: "h-[260px]",
-    img: "/ourWork/8.jpg",
+    size: "aspect-square",
+    img: "/ourWork/8..jpg",
   },
   {
+    title: "Clinical Exercise",
     description:
       "Personalized clinical exercise programs designed for long-term functional recovery.",
-    size: "h-[480px]",
+    size: "aspect-[2/3]",
     img: "/ourWork/3.jpg",
   },
   {
+    title: "NDIS Support",
     description:
       "Comprehensive support and physical therapy for NDIS plan-managed participants.",
-    size: "h-[310px]",
-    img: "/ourWork/4.jpg",
+    size: "aspect-[4/3]",
+    img: "/ourWork/4..jpg",
   },
   {
+    title: "Dry Needling",
     description:
       "Targeted intramuscular stimulation to alleviate deep muscular tension and chronic pain.",
-    size: "h-[220px]",
+    size: "aspect-video",
     img: "/ourWork/5.jpg",
   },
   {
+    title: "In-Home Physio",
     description:
       "Professional in-home assessments and treatment for those unable to visit the clinic.",
-    size: "h-[440px]",
+    size: "aspect-[3/4]",
     img: "/ourWork/6.jpg",
   },
   {
+    title: "Balance Training",
     description:
       "Evidence-based balance training to reduce injury risk in high-risk environments.",
-    size: "h-[350px]",
-    img: "/ourWork/7.jpg",
+    size: "aspect-square",
+    img: "/ourWork/7..jpg",
   },
   {
+    title: "WorkCover Claims",
     description:
       "Expert navigation and treatment for workplace injury recovery and return-to-work plans.",
-    size: "h-[220px]",
+    size: "aspect-video",
     img: "/ourWork/2_.jpg",
   },
   {
+    title: "Veterans Care",
     description:
       "Providing high-quality rehabilitative care for our veterans and their families.",
-    size: "h-[290px]",
+    size: "aspect-square",
     img: "/ourWork/9.jpg",
   },
   {
+    title: "Neuro Rehab",
     description:
       "Advanced neurological rehabilitation for stroke recovery and chronic conditions.",
-    size: "h-[460px]",
+    size: "aspect-[2/3]",
     img: "/ourWork/10.jpg",
   },
   {
+    title: "Post-Surgical",
     description:
       "Critical early-stage rehabilitation following major orthopedic surgical procedures.",
-    size: "h-[330px]",
+    size: "aspect-[4/3]",
     img: "/ourWork/11.jpg",
   },
   {
+    title: "Medicare Plans",
     description:
       "Integrated chronic disease management through Medicare-supported healthcare plans.",
-    size: "h-[400px]",
+    size: "aspect-[3/4]",
     img: "/ourWork/12.jpg",
   },
   {
+    title: "Patient Comfort",
     description:
-      "Sports-specific injury prevention and performance optimization for local athletes.",
-    size: "h-[320px]",
+      "Adapting treatment positions to suit each patient's needs for maximum comfort.",
+    size: "aspect-square",
     img: "/ourWork/2.jpg",
+  },
+  {
+    title: "Clinical Pilates",
+    description:
+      "Integrating Clinical Pilates techniques to optimize movement, control, and recovery.",
+    size: "aspect-square",
+    img: "/ourWork/13.jpg",
+  },
+  {
+    title: "Electrotherapy",
+    description:
+      "Utilizing electrotherapy and ultrasound to support healing and reduce pain.",
+    size: "aspect-square",
+    img: "/ourWork/14.jpg",
+  },
+  {
+    title: "Trigger Point Release",
+    description:
+      "Myofascial trigger points release with dry needling to improve muscle function.",
+    size: "aspect-square",
+    img: "/ourWork/15.jpg",
+  },
+  {
+    title: "Taping & Strapping",
+    description:
+      "Using taping techniques to support joints and enhance functional movement.",
+    size: "aspect-square",
+    img: "/ourWork/16.jpg",
+  },
+  {
+    title: "Ultrasound Therapy",
+    description:
+      "Advanced ultrasound applications to enhance deep tissue recovery outcomes.",
+    size: "aspect-square",
+    img: "/ourWork/17.jpg",
   },
 ];
 
 export const testimonials = [
   {
     id: 1,
-    name: "James Wilson",
+    name: "Bartolo Lavalle",
     role: "Post-Surgical Patient",
     content:
       "After my knee replacement, I was worried about my mobility. The post-surgical care I received was exceptional. Their evidence-based approach and constant encouragement got me back on my feet faster than I ever expected.",
-    avatar: "/avatars/james.jpg",
+    avatar: "/avatars/jamess.jpg",
     rating: 5,
   },
   {
     id: 2,
-    name: "Margaret Thompson",
+    name: "Karen Lee Thompson",
     role: "Aged Care Resident",
     content:
       "The home visit services have been a godsend. The team is patient, professional, and has significantly improved my balance and confidence. It’s rare to find a practice so dedicated to geriatric independence.",
-    avatar: "/avatars/margaret.jpg",
+    avatar: "/avatars/margarett.jpg",
     rating: 5,
   },
   {
@@ -325,15 +390,15 @@ export const testimonials = [
     avatar: "/avatars/sarah.jpg",
     rating: 5,
   },
-  {
-    id: 5,
-    name: "Robert Evans",
-    role: "WorkCover Claimant",
-    content:
-      "Returning to work after a back injury was daunting. The staff managed my WorkCover claim and treatment with total professionalism, ensuring my recovery was sustainable and safe.",
-    avatar: "/avatars/robert.jpg",
-    rating: 5,
-  },
+  // {
+  //   id: 5,
+  //   name: "Robert Evans",
+  //   role: "WorkCover Claimant",
+  //   content:
+  //     "Returning to work after a back injury was daunting. The staff managed my WorkCover claim and treatment with total professionalism, ensuring my recovery was sustainable and safe.",
+  //   avatar: "/avatars/robert.jpg",
+  //   rating: 5,
+  // },
   {
     id: 6,
     name: "Elena Rodriguez",
@@ -352,6 +417,7 @@ export const informationData = [
     dial1: "+61242176000",
     number2: "(02) 8313 5799",
     dial2: "+61283135799",
+    fax: "0283135799",
     address: "LG W005, Wollongong Central 200 Crown, Wollongong, NSW 2500",
     lat: -34.4250325,
     lng: 150.8931133,
@@ -363,6 +429,7 @@ export const informationData = [
     dial1: "+61244214655",
     number2: "(02) 4423 5814",
     dial2: "+61244235814",
+    fax: "0244235814",
     address: "1-3 Meroo Street, Bomaderry, NSW 2541",
     lat: -34.8569,
     lng: 150.6033,
@@ -373,6 +440,7 @@ export const informationData = [
     dial1: "+61242080100",
     number2: "(02) 4208 0120",
     dial2: "+61242080120",
+    fax: "0242080120",
     address: "144 Terry Street, Albion Park, NSW 2527",
     lat: -34.5658,
     lng: 150.7765,
@@ -383,6 +451,7 @@ export const informationData = [
     dial1: "+61280435333",
     number2: "(02) 8043 5444",
     dial2: "+61280435444",
+    fax: "0280435444",
     address: "132 Junction Street, Nowra, NSW 2541",
     lat: -34.8748622,
     lng: 150.6025378,

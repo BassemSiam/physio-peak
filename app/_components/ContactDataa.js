@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone, PhoneCall } from "lucide-react";
+import { Mail, MapPin, Phone, PhoneCall, Printer } from "lucide-react";
 
 function ContactData({ data }) {
   return (
@@ -24,6 +24,15 @@ function ContactData({ data }) {
           </a>
         </li>
 
+        <li className="flex items-center gap-3 text-gray-400">
+          <div className="flex items-center gap-2 transition-colors">
+            <Printer size={20} className="text-primary" />
+            <span className="flex gap-1">
+              <span className="font-semibold text-gray-300">Fax:</span>
+              {data?.fax}
+            </span>
+          </div>
+        </li>
         <li className="flex items-center gap-3 text-gray-400">
           <a
             href="mailto:info@physiopeak.com.au"

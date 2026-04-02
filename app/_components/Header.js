@@ -38,17 +38,25 @@ function Header({ buttonDisplay }) {
               />
             </Link>
           </div>
-          <Navigation onToggle={() => setIsOpen(true)} scrolled={scrolled} />
-          <div className="hidden md:block">
+
+          <div className="flex items-center gap-3 md:contents">
+            
+            {/* The Button */}
             <Link
               href="https://physio-peak-pty-ltd.au4.cliniko.com/bookings#location"
-              className="w-fit"
+              className="order-1 md:order-3" // Appears first on mobile, last on desktop
               target="_blank"
             >
-              <button className="bg-primary hover:text-primary cursor-pointer rounded-full px-5 py-3 text-sm font-bold text-white transition-all duration-300 hover:bg-white">
-                Book Appointment
+              <button className="bg-primary hover:text-primary cursor-pointer rounded-full px-3 py-2 text-[11px] font-bold text-white transition-all duration-300 hover:bg-white md:px-5 md:py-3 md:text-sm">
+                <span className="md:hidden">BOOK NOW</span>
+                <span className="hidden md:inline">BOOK APPOINTMENT</span>
               </button>
             </Link>
+
+            {/* The Navigation / Hamburger */}
+            <div className="order-2 md:order-2">
+              <Navigation onToggle={() => setIsOpen(true)} scrolled={scrolled} />
+            </div>
           </div>
         </header>
       </div>

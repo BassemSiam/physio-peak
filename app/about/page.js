@@ -1,5 +1,5 @@
 import HeroSection from "../_components/HeroSection";
-import AboutDrMohamed from "../_pages/aboutSections/AboutDrMohamed";
+import FoundersSection from "../_pages/aboutSections/FoundersSection";
 import OurWorkMasonry from "../_pages/aboutSections/OurWorkMasonry";
 import VideoPhysioPeak from "../_pages/VideoPhysioPeak";
 
@@ -13,7 +13,7 @@ function page() {
         buttonDisplay={true}
       />
       <main className="mx-auto max-w-6xl px-4 py-10 md:px-10 md:py-10">
-        <AboutDrMohamed />
+        <FoundersSection />
         <VideoPhysioPeak />
         <OurWorkMasonry />
       </main>
