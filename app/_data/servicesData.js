@@ -357,57 +357,48 @@ export const testimonials = [
   {
     id: 1,
     name: "Bartolo Lavalle",
-    role: "Post-Surgical Patient",
+    role: "80+ Years Old",
     content:
-      "After my knee replacement, I was worried about my mobility. The post-surgical care I received was exceptional. Their evidence-based approach and constant encouragement got me back on my feet faster than I ever expected.",
+      "Having physio at home has made a big difference for me At my age, I was really struggling with walking and dealing with constant back pain. But since starting, I feel like I'm moving better and getting more confident step by step I actually look forward to the sessions, I always feel better after, like I've done something good for myself",
     avatar: "/avatars/jamess.jpg",
     rating: 5,
   },
   {
     id: 2,
     name: "Karen Lee Thompson",
-    role: "Aged Care Resident",
+    role: "Work-Related Back Injury",
     content:
-      "The home visit services have been a godsend. The team is patient, professional, and has significantly improved my balance and confidence. It’s rare to find a practice so dedicated to geriatric independence.",
+      "I hurt my back at work and was really struggling to do my job, With physio, things slowly started to improve. I got stronger, my pain settled, and I was able to get back to work feeling more confident, Really grateful for the support through my recovery.",
     avatar: "/avatars/margarett.jpg",
     rating: 5,
   },
   {
     id: 3,
-    name: "David Chen",
-    role: "NDIS Participant",
+    name: "Angela Britz",
+    role: "Right Knee Replacement",
     content:
-      "Navigating chronic pain with NDIS can be complex, but PhysioPeak made it simple. The integrated care plan and neurological rehab techniques have genuinely changed my daily quality of life.",
-    avatar: "/avatars/david.jpg",
+      "I started physio late after complications from my knee replacement, and I was told I might even need another surgery, But once I began treatment, things started to improve quickly. I'm moving better, feeling stronger, and honestly didn't expect this progress in such a short time, Really grateful I kept go",
+    avatar: "/avatars/Angela.jpg",
     rating: 5,
   },
   {
     id: 4,
-    name: "Sarah Jenkins",
-    role: "Local Athlete",
+    name: "Stephen Hartnett",
+    role: "Neck arthritis with radicular pain",
     content:
-      "The sports-specific injury prevention and dry needling sessions are top-tier. This clinic understands the mechanics of movement perfectly. I’m performing at my peak thanks to their tailored maintenance programs.",
-    avatar: "/avatars/sarah.jpg",
-    rating: 5,
+      "After experiencing neck stiffness, radicular pain, and reduced mobility following a two-week hospital stay for COVID-19, I started physiotherapy as recommended. The treatment greatly reduced my pain, improved my movement, and now I can do simple daily activities like walking to a coffee shop. I'm very happy with the results and keep working on my back strength.",
+    avatar: "/avatars/Stephen.jpg",
+    rating: 4,
   },
   // {
-  //   id: 5,
-  //   name: "Robert Evans",
-  //   role: "WorkCover Claimant",
+  //   id: 6,
+  //   name: "Elena Rodriguez",
+  //   role: "Chronic Pain Management",
   //   content:
-  //     "Returning to work after a back injury was daunting. The staff managed my WorkCover claim and treatment with total professionalism, ensuring my recovery was sustainable and safe.",
-  //   avatar: "/avatars/robert.jpg",
+  //     "I had been living with chronic neck pain for years. Through a combination of manual therapy and targeted exercises, the clinicians helped me regain full range of motion. Truly life-changing care.",
+  //   avatar: "/avatars/elenaa.jpg",
   //   rating: 5,
   // },
-  {
-    id: 6,
-    name: "Elena Rodriguez",
-    role: "Chronic Pain Management",
-    content:
-      "I had been living with chronic neck pain for years. Through a combination of manual therapy and targeted exercises, the clinicians helped me regain full range of motion. Truly life-changing care.",
-    avatar: "/avatars/elenaa.jpg",
-    rating: 5,
-  },
 ];
 
 export const informationData = [

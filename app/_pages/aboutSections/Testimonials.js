@@ -5,7 +5,6 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { Star, ChevronRight, ChevronLeft } from "lucide-react";
-
 import { testimonials } from "@/app/_data/servicesData";
 
 import "swiper/css";

@@ -1,9 +1,9 @@
-import { Mail, MapPin, Phone, PhoneCall, Printer } from "lucide-react";
+import { Mail, MapPin, PhoneCall, Printer } from "lucide-react";
 
 function ContactData({ data }) {
   return (
     <div>
-      <ul className="space-y-8">
+      <ul className="space-y-6">
         <li className="flex flex-wrap items-center gap-6 text-gray-400">
           {/* Phone Number 1 */}
           <a
@@ -12,15 +12,6 @@ function ContactData({ data }) {
           >
             <PhoneCall size={20} className="text-primary" />
             <span>{data?.number1}</span>
-          </a>
-
-          {/* Phone Number 2 */}
-          <a
-            href={`tel:${data?.dial2}`}
-            className="hover:text-primary flex items-center gap-2 transition-colors"
-          >
-            <Phone size={20} className="text-primary" />
-            <span>{data?.number2}</span>
           </a>
         </li>
 

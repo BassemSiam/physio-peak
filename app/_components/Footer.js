@@ -29,7 +29,7 @@ export default function Footer() {
 
         {/* Column 2: Quick Links */}
         <div>
-          <h3 className="mb-4 text-lg text-xs font-semibold tracking-wide text-white uppercase">
+          <h3 className="mb-4 text-xs font-semibold tracking-wide text-white uppercase md:text-lg">
             Quick Links
           </h3>
           <ul className="space-y-3 text-gray-400">
@@ -85,17 +85,6 @@ export default function Footer() {
                     <Phone size={14} className="text-primary shrink-0" />
                     <span className="tabular-nums">{clinic.number1}</span>
                   </a>
-
-                  {/* Phone 2 (Conditional Check) */}
-                  {clinic.number2 && (
-                    <a
-                      href={`tel:${clinic.dial2}`}
-                      className="hover:text-primary flex items-center gap-3 transition-colors"
-                    >
-                      <Phone size={14} className="text-primary shrink-0" />
-                      <span className="tabular-nums">{clinic.number2}</span>
-                    </a>
-                  )}
 
                   {/* Fax */}
                   <div className="flex items-center gap-3 text-gray-400">
