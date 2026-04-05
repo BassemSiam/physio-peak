@@ -227,127 +227,101 @@ export const therapists = [
 export const workGallery = [
   {
     title: "Manual Therapy",
-    description:
-      "Hands-on techniques for joint and soft tissue mobilization to restore painless movement.",
-    size: "aspect-[3/4]",
+    description: "Hands-on techniques for joint and soft tissue mobilization to restore painless movement.",
+    // Anchor: Tall (2 rows high)
+    size: "md:col-span-1 md:row-span-2 aspect-[3/4] md:aspect-auto", 
     img: "/ourWork/1.jpg",
   },
   {
+    title: "NDIS Support",
+    description: "Comprehensive support and physical therapy for NDIS plan-managed participants.",
+    // Anchor: Wide (2 columns across)
+    size: "md:col-span-2 aspect-video md:aspect-auto", 
+    img: "/ourWork/4..jpg",
+  },
+  {
     title: "Geriatric Care",
-    description:
-      "Specialized geriatric care focusing on mobility, fall prevention, and independence.",
+    description: "Specialized geriatric care focusing on mobility, fall prevention, and independence.",
     size: "aspect-square",
     img: "/ourWork/8..jpg",
   },
   {
     title: "Clinical Exercise",
-    description:
-      "Personalized clinical exercise programs designed for long-term functional recovery.",
-    size: "aspect-[2/3]",
+    description: "Personalized clinical exercise programs designed for long-term functional recovery.",
+    size: "aspect-square",
     img: "/ourWork/3.jpg",
   },
   {
-    title: "NDIS Support",
-    description:
-      "Comprehensive support and physical therapy for NDIS plan-managed participants.",
-    size: "aspect-[4/3]",
-    img: "/ourWork/4..jpg",
-  },
-  {
     title: "Dry Needling",
-    description:
-      "Targeted intramuscular stimulation to alleviate deep muscular tension and chronic pain.",
-    size: "aspect-video",
+    description: "Targeted intramuscular stimulation to alleviate deep muscular tension and chronic pain.",
+    size: "aspect-square",
     img: "/ourWork/5.jpg",
   },
   {
-    title: "In-Home Physio",
-    description:
-      "Professional in-home assessments and treatment for those unable to visit the clinic.",
-    size: "aspect-[3/4]",
-    img: "/ourWork/6.jpg",
+    title: "WorkCover Claims",
+    description: "Expert navigation and treatment for workplace injury recovery and return-to-work plans.",
+    // Anchor: Wide
+    size: "md:col-span-2 aspect-video md:aspect-auto", 
+    img: "/ourWork/2_.jpg",
+  },
+  {
+    title: "Neuro Rehab",
+    description: "Advanced neurological rehabilitation for stroke recovery and chronic conditions.",
+    // Anchor: Tall
+    size: "md:col-span-1 md:row-span-2 aspect-[3/4] md:aspect-auto", 
+    img: "/ourWork/10.jpg",
   },
   {
     title: "Balance Training",
-    description:
-      "Evidence-based balance training to reduce injury risk in high-risk environments.",
+    description: "Evidence-based balance training to reduce injury risk in high-risk environments.",
     size: "aspect-square",
     img: "/ourWork/7..jpg",
   },
   {
-    title: "WorkCover Claims",
-    description:
-      "Expert navigation and treatment for workplace injury recovery and return-to-work plans.",
-    size: "aspect-video",
-    img: "/ourWork/2_.jpg",
-  },
-  {
     title: "Veterans Care",
-    description:
-      "Providing high-quality rehabilitative care for our veterans and their families.",
+    description: "Providing high-quality rehabilitative care for our veterans and their families.",
     size: "aspect-square",
     img: "/ourWork/9.jpg",
   },
   {
-    title: "Neuro Rehab",
-    description:
-      "Advanced neurological rehabilitation for stroke recovery and chronic conditions.",
-    size: "aspect-[2/3]",
-    img: "/ourWork/10.jpg",
-  },
-  {
     title: "Post-Surgical",
-    description:
-      "Critical early-stage rehabilitation following major orthopedic surgical procedures.",
-    size: "aspect-[4/3]",
+    description: "Critical early-stage rehabilitation following major orthopedic surgical procedures.",
+    size: "aspect-square",
     img: "/ourWork/11.jpg",
   },
   {
     title: "Medicare Plans",
-    description:
-      "Integrated chronic disease management through Medicare-supported healthcare plans.",
-    size: "aspect-[3/4]",
+    description: "Integrated chronic disease management through Medicare-supported healthcare plans.",
+    size: "aspect-square",
     img: "/ourWork/12.jpg",
   },
   {
     title: "Patient Comfort",
-    description:
-      "Adapting treatment positions to suit each patient's needs for maximum comfort.",
+    description: "Adapting treatment positions to suit each patient's needs for maximum comfort.",
     size: "aspect-square",
     img: "/ourWork/2.jpg",
   },
   {
     title: "Clinical Pilates",
-    description:
-      "Integrating Clinical Pilates techniques to optimize movement, control, and recovery.",
+    description: "Integrating Clinical Pilates techniques to optimize movement, control, and recovery.",
     size: "aspect-square",
     img: "/ourWork/13.jpg",
   },
   {
-    title: "Electrotherapy",
-    description:
-      "Utilizing electrotherapy and ultrasound to support healing and reduce pain.",
-    size: "aspect-square",
-    img: "/ourWork/14.jpg",
-  },
-  {
     title: "Trigger Point Release",
-    description:
-      "Myofascial trigger points release with dry needling to improve muscle function.",
+    description: "Myofascial trigger points release with dry needling to improve muscle function.",
     size: "aspect-square",
     img: "/ourWork/15.jpg",
   },
   {
     title: "Taping & Strapping",
-    description:
-      "Using taping techniques to support joints and enhance functional movement.",
+    description: "Using taping techniques to support joints and enhance functional movement.",
     size: "aspect-square",
     img: "/ourWork/16.jpg",
   },
   {
     title: "Ultrasound Therapy",
-    description:
-      "Advanced ultrasound applications to enhance deep tissue recovery outcomes.",
+    description: "Advanced ultrasound applications to enhance deep tissue recovery outcomes.",
     size: "aspect-square",
     img: "/ourWork/17.jpg",
   },
